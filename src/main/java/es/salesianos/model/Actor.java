@@ -1,8 +1,6 @@
 package es.salesianos.model;
 
 public class Actor extends Director{
-
-	
 	private Integer year;
 
 	public Integer getYear() {
@@ -12,6 +10,4 @@ public class Actor extends Director{
 	public void setYear(Integer year) {
 		this.year = year;
 	}
-
-
 }
