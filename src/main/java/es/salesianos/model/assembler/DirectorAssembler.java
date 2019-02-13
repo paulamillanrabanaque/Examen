@@ -2,8 +2,11 @@ package es.salesianos.model.assembler;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.springframework.stereotype.Component;
+
 import es.salesianos.model.Director;
 
+@Component
 public class DirectorAssembler {
 	public static Director assembleDirectorFrom(HttpServletRequest req) {
 		Director director = new Director();
